@@ -1,0 +1,149 @@
+.main-app {
+  background: #18978f;
+  background-image: url("images/background.jpg");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* height: 500px; You must set a specified height */
+  background-position: center; /* Center the image */
+  overflow-y: scroll;
+}
+
+footer {
+  background-color: #18978f;
+  text-align: center;
+  bottom: 0;
+}
+footer p {
+  color: #eee;
+  font-size: 1.5rem;
+}
+
+/*dest search page*/
+
+.destDrop {
+  margin-right: 10px;
+}
+.ds {
+  height: 100vh;
+  margin: 0;
+}
+.inputs-container {
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 10px 5px;
+  text-align: center;
+}
+.asc-logo {
+  height: 40px;
+  margin-left: -50px;
+  margin-right: 50px;
+}
+
+.rw-widget-container {
+  height: 50px;
+}
+
+.inputs {
+  width: 110%;
+}
+.input-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.filter{
+  width:200px;
+}
+
+/*Hotel Info Card*/
+
+.hp {
+  background-color: white;
+  height: 90vh;
+}
+
+.more-info {
+  text-align: right;
+  position: relative;
+  right: 30px;
+}
+
+.hotel-info {
+  font-size: small;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.hotel-price {
+  position: relative;
+  top: 80px;
+  font-size: small;
+  margin-bottom: 0;
+  text-align: left;
+}
+.hotel-button {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+/*Hotel Info Page*/
+.hotel-board {
+  background-color: white;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.description {
+  background-color: white;
+  margin-top: 10%;
+}
+.amenities{
+  width:50%;
+}
+
+.first-layer{
+  margin-top:1%;
+  height:170px;
+}
+
+.room-card{
+  margin-top:1%;
+}
+/* Booking Page*/ 
+.booking{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bookingForm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px;
+}
+.credit-card {
+  z-index: 20;
+  top: 30px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.hotel-booking-info{
+  margin-top: 13%;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.payment-logos{
+  max-width: 50px;
+  max-height: 50px
+}
+.particulars-container{
+    background-color: white;
+    margin-top:40px;
+    border-radius:3px;
+}
